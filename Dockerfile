@@ -14,7 +14,8 @@ RUN pip install pandas
 #RUN pip install logging
 RUN pip install datetime
 #RUN pip install sys
-
+RUN pip install pyarrow
+RUN pip install fastparquet
 
 CMD [ "python3", "./main.py" ]
 
