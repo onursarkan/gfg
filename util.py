@@ -3,7 +3,7 @@
 
 import configparser
 import boto3
-#import botocore
+import botocore
 import pandas as pd
 import io
 import atexit
