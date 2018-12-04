@@ -13,7 +13,11 @@ In this challenge, deployable (docker container) ETL jobs are developed by using
 	- Pandas: It is used for data manipulation operations with dataframes.
 	- Logging: It is used for standart logging.
 	- Configparser: It is used to manage config file and parameters.
-- **Deployable Approach:** Docker container is created to implemenet deployable package.
+- **Deployable Approach:** Docker container is created to implemenet deployable package. To create Docker container:
+	- Clone the git project: git clone https://github.com/onursarkan/gfg
+	- Update the aws credentials in common.conf file.
+	- Build a docker image: sudo docker build -t gfgetl .
+	- Run the docker image: docker run gfgetl
 ## Solution 1 (Delete-Insert ETL):
 In this solution, DELETE/INSERT ETL approach is implemented.
 - Step 1: Target folder is cleaned in target bucket (Parquet files are deleted).
