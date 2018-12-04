@@ -1,8 +1,8 @@
 # DWH Engineer Challenge
 In this challenge, deployable (docker container) ETL jobs are developed by using Python programming.
 ## Task Details:
-- **Source System:** s://gfg.challenge.dwh.data
-- **Target System:** s://gfg.challenge.dwh.sarkan
+- **Source System:** s3://gfg.challenge.dwh.data
+- **Target System:** s3://gfg.challenge.dwh.sarkan
 - **Source files:** Pipe (|) separated compressed (gzip) text files with 8 columns
 - **Data cleaning steps:**
 	- Date conversion: Two timestamp columns are parsed and converted to date strings during the file read operation (column 6 and column 7).
